@@ -1,0 +1,20 @@
+h1 {
+  font-family: monospace;
+  font-weight: 900;
+}
+table, td {
+  border: 1px solid blueviolet;
+  background-color: cornsilk;
+}
+
+
+th {
+  background-color: yellowgreen;
+}
+
+.tag {
+  font-family: monospace;
+  color:brown;
+  background-color: black;
+  font-weight: 1000;
+}
