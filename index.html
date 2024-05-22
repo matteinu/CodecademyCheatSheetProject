@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display &#38 Positioning, by Matteo</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+  <h1>Display &#38 Positioning, a Cheat Sheet by Matteo</h1>
+<body>
+  <table>
+    <tr>
+      <th scope="col">Attribute &#38 Value</th>
+      <th scope="col">Positioning</th>
+      <th scope="col">Display</th>
+      <th scope="col">Description</th>
+    </tr>
+    <tr>
+      <td  class="tag">position: fixed</td>
+      <td style=" text-align:center">X</td>
+      <td></td>
+      <td>The element is pinned to a specific spot on the page</td>
+    </tr>
+    <tr>
+      <td class="tag">position: absolute</td>
+      <td style=" text-align:center">X</td>
+      <td></td>
+      <td>The element ignores siblings elements and is positioned relative to its closest parent element that is positioned with relative or absolute. The element is removed from the document flow. The element can be positioned anywhere with positioning attributes top, left, bottom and right.</td>
+    </tr>
+   <tr>
+      <td  class="tag">position: relative</td>
+      <td style=" text-align:center">X</td>
+      <td></td>
+      <td>The element is positioned relative to its original position, with offset properties to determine the actual position - without offset, the declaration will have no effect.</td>
+    </tr>
+    <tr>
+      <td  class="tag">display: block</td>
+      <td></td>
+      <td style=" text-align:center">X</td>
+      <td>Block level elements take the full width of their container (with line breaks before and after) and can have their width and height manually adjusted.</td>
+    </tr>
+    <tr>
+      <td  class="tag">display: inline</td>
+      <td></td>
+      <td style=" text-align:center">X</td>
+      <td>Inline elements take as little space as possible, flow horizontally, and cannot have their width and height manually adjusted.</td>
+    </tr>
+    <tr>
+      <td  class="tag">display: inline-block</td>
+      <td></td>
+      <td style=" text-align:center">X</td>
+      <td>Inline-block elements can appear next to each other and can have their width and height manually adjusted.</td>
+    </tr>
+   <tr>
+      <td  class="tag">float: left/right</td>
+      <td></td>
+      <td style=" text-align:center">X</td>
+      <td>How far left or right an element should float within its parent element. The width of the container must be specified or the element will assume the full width of its containing element.</td>
+    </tr>
+   <tr>
+      <td  class="tag">clear: left/right/both/none</td>
+      <td></td>
+      <td style=" text-align:center">X</td>
+      <td>How an element should behave when it bumps into another element within the same containing element. Usually used in combination with elements having the CSS float property, determining on wich sides floating elements are allowed to float.</td>
+    </tr>
+   <tr>
+      <td  class="tag">z-index</td>
+      <td></td>
+      <td style=" text-align:center">X</td>
+      <td>How far back or forward an element will appear when it overlaps other elements. It uses integers (positive or negative), the highest will be at the foreground.</td>
+    </tr>
+  </table>
+</body>
+</html>
